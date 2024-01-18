@@ -1,0 +1,97 @@
+/* Apply some basic styling to the header and navigation */
+header {
+    position: relative;
+    background: url("header-image.png") center/cover no-repeat;
+    text-align: center;
+    padding: 30px 0;
+    color: white; /* Text color on top of the background image */
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.5
+    ); /* Semi-transparent background for the navigation bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  nav img {
+    width: 50px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #fff; /* Text color on the navigation links */
+  }
+  
+  /* Style the main content area */
+  main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Style for the "About Us" section */
+  .about {
+    text-align: center;
+  }
+  
+  /* Style for the "Who Are We" section */
+  .who-are-we {
+    text-align: center;
+    margin-top: 40px;
+    background-color: beige; /* Set background color to beige */
+  }
+  
+  .who-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items horizontally */
+    align-items: center; /* Vertically center align items */
+    border-radius: 10px;
+    padding: 40px; /* Adjust padding as needed */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+  }
+  
+  .who-text {
+    width: 50%; /* Adjust the width of the text box */
+    padding: 20px;
+  }
+  
+  .who-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .who-img {
+    width: 20%; /* Adjust the width of the image */
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px; /* Add right margin to separate the text and image */
+  }
+  
+ 
+  
+  
